@@ -1,1 +1,3 @@
-# Banking-System-Collection-Process
+Banking System
+Make a collection API(Restful API)
+Using Spring boot, Java, MVC
