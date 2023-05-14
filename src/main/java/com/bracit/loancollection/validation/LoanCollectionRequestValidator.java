@@ -6,9 +6,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 @RequiredArgsConstructor
-public class LoanCollectionRequestValidator {
+public class LoanCollectionRequestValidator implements LoanValidationForCollection {
 
-    public void validateLoanCollectionInformation(){
 
+    @Override
+    public boolean isLienLoan(Long memberId) {
+        return false;
     }
 }
